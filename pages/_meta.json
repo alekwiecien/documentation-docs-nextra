@@ -1,0 +1,12 @@
+{
+  "*": {
+    "type": "page"
+  },
+  "index": {
+    "title": "Devportal",
+    "href": "https://developer.infermedica.com/",
+    "newWindow": true
+  },
+  "documentation": "Documentation"
+}
+
