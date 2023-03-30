@@ -1,7 +1,10 @@
 import { useState, useEffect } from 'react'
-
+interface Profile {
+  name: string
+  bio: string
+}
 function Profile () {
-  const [data, setData] = useState(null)
+  const [data, setData] = useState<Profile | null>(null)
   const [isLoading, setLoading] = useState(false)
 
   useEffect(() => {
